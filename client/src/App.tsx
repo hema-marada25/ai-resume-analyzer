@@ -38,7 +38,7 @@ function App() {
       setLoading(true)
       setError(null)
       const response = await axios.post(
-        'http://localhost:5000/api/analyze',
+        'https://ai-resume-analyzer-dqx7.onrender.com/api/analyze',
         formData,
         {
           headers: { 'Content-Type': 'multipart/form-data' }
